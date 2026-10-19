@@ -5,6 +5,8 @@
  * @format
  */
 
+import Login from './Screens/Login';
+import Signup from './Screens/Signup';
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
 import {
   SafeAreaProvider,
@@ -27,6 +29,7 @@ function AppContent() {
 
   return (
     <View style={styles.container}>
+      <Signup />
     </View>
   );
 }
